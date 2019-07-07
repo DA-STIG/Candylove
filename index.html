@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Museum of Candy</title>
+  </head>
+
+  <body>
+
+<!-- py-0 padding top&bottom 0 for Navbar -->
+<nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md fixed-top py-0">
+        <a href="#" class="navbar-brand">CANDY</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navbar">
+             <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="">HOME</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="">ABOUT</a>
+                </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="">TICKETS</a>
+                    </li>
+
+            </ul>
+        </div>
+
+      </nav>
+
+<section>
+    <!-- px-0 padding left&right 0 -->
+    <div class="container-fluid px-0">
+        <!-- align-items-cenmter to move the txt in the middle -->
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+<!-- to make the text dissapear d-none[display none] and over-write it with d-lg-block [display-lg screen-block level]-->
+                <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+
+                    <h1 class="">MUSEUM <span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1 class="">MUSEUM <span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1 class="">MUSEUM <span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1 class="">MUSEUM <span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1 class="">MUSEUM <span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1 class="">MUSEUM <span>/</span>OF<span>/</span>CANDY</h1>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <!-- img-fluid makes img scalabale more responsive -->
+                <img class="img-fluid" src="https://images.unsplash.com/photo-1534119428213-bd2626145164?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80">
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<!-- container fluid and px-0 to remove padding from the side -->
+<section class="container-fluid px-0 content">
+
+    <!-- to make text on the right of the img center aling-items-center -->
+    <div class="row align-items-center blurb">
+
+        <!-- to set items order to switch we use order class
+        order-2 is second item and on md screen goes back to 1st item -->
+        <div class="col-md-6 order-2 order-md-1">
+
+            <img src="https://images.unsplash.com/photo-1481391319762-47dff72954d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80" alt="" class="img-fluid">
+        </div>
+
+        <div class="col-md-6 text-center order-1 order-md-2 blurb content ">
+            <div class="row justify-content-center">
+
+                <!-- we can add 1 more column each sid eto cenger the text but
+                using utilities is easier justify-content-center -->
+                <!-- <div class="col-1"></div> -->
+                <div class="col-10 col-6-lg  mb-5 mb-md-0">
+
+                        <h2>Museum of Candy</h2>
+
+                        <!-- making icon candy dissapear d-none[display-none]
+                            & d-lg-inlie-display on large screen as inline el -->
+                        <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">Americans over 18 years of age consume 65 percent of the candy which is produced each year.</p>
+                        <p class="lead"> About 65 percent of American candy brands have introduced before more than 50 years.</p>
+                        <p class="lead"> For Valentine's Day more than 36 million heart-shaped boxes of chocolate are sold</p>
+
+
+                </div>
+                <!-- <div class="col-1"></div> -->
+
+            </div>
+        </div>
+
+    </div>
+    <div class="row align-items-center blurb content">
+            <!-- to set items order to switch we use order class
+            order-2 is second item and on md screen goes back to 1st item -->
+
+            <div class="col-md-6 text-center blurb">
+                <div class="row justify-content-center">
+                    <!-- we can add 1 more column each sid eto cenger the text but
+                    using utilities is easier justify-content-center
+                    mb-5[margin bottom]padding on small screen under de text-->
+                    <!-- <div class="col-1"></div> -->
+                    <div class="col-10 col-6-lg mb-5 mb-md-0 ">
+                            <h2>Museum of Candy</h2>
+                            <!-- making icon candy dissapear d-none[display-none]
+                                & d-lg-inlie-display on large screen as inline el -->
+                            <!-- <img src="imgs/lolli_icon.png" alt="" class=" d-none d-lg-inline"> -->
+                            <img src="giphy.gif" alt="" class=" a">
+                            <p class="lead"> The Snickers candy bar, which was introduced in 1929 by Frank and Ethel Mars, was named after the family horse.</p>
+                            <p class="lead">2.8 billion pounds of chocolate are consumed in America each year, which is over 11 pounds per person.</p>
+                            <p class="lead">The U.S. produce more chocolate than any other country in the world but the Swiss consume the most, followed by the United Kingdom.</p>
+                    </div>
+                    <!-- <div class="col-1"></div> -->
+
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                    <img src="https://images.unsplash.com/photo-1554298128-ea9672f06627?ixlib=rb-1.2.1&auto=format&fit=crop&w=628&q=80" alt="" class="img-fluid">
+                </div>
+
+        </div>
+
+        <div class="row align-items-center blurb content">
+                <!-- to set items order to switch we use order class
+                order-2 is second item and on md screen goes back to 1st item -->
+                <div class="col-md-6 order-2 order-md-1">
+                    <img   src="https://images.unsplash.com/photo-1538007537604-de74c5416c7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6 text-center order-1 order-md-2 blurb content">
+                    <div class="row justify-content-center">
+                        <!-- we can add 1 more column each sid eto cenger the text but
+                        using utilities is easier justify-content-center -->
+                        <!-- <div class="col-1"></div> -->
+                        <div class="col-10 col-6-lg mb-5 mb-md-0 ">
+                                <h2>Museum of Candy</h2>
+                                <!-- making icon candy dissapear d-none[display-none]
+                                    & d-lg-inlie-display on large screen as inline el -->
+                                <img src="imgs/g2.gif" alt="" class="a">
+                                <p class="lead">A lollipop, which was invented by George Smith in 1908, was named after Lolly Pop, a racing horse.</p>
+                                <p class="lead">It takes LICKING MACHINES[real thing] from 364 to 411 licks to reach the center of a TOOTSIE pop.</p>
+                                <p class="lead"> It's NOT chocolate between the layers of wafer in a KIT KAT bar</p>
+                        </div>
+                        <!-- <div class="col-1"></div> -->
+
+                    </div>
+                </div>
+
+            </div>
+</section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+<!-- Javascript & jQuerry -->
+<script>
+$(function (){
+    $(document).scroll(function(){
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled",$(this).scrollTop()>$nav.height());
+    })
+})
+
+</script>
+
+
+<small class="text-muted">Refrences: Giphy>>https://gph.is/st/YrdJevE || Giphy>>https://gph.is/2Pr6ISp </small>
+  </body>
+</html>
